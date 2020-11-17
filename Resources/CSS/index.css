@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.grid-container {
+    display: grid;
+    height: 3000px;
+    width: 100%;
+    grid-template-columns: 100%;
+    grid-template-rows: 3% 1% 17% 14% 14% 14% 20% 10% 7%;
+    grid-template-areas: 
+    "nav-bar"
+    "closed-message"
+    "pic-slider"
+    "job-ad"
+    "welcome"
+    "freshly-made-meals"
+    "menus"
+    "meal-deals"
+    "footer";
+}
+
+.nav-bar {
+    grid-area: nav-bar;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+}
+
+.closed-message {
+    grid-area: closed-message;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+.pic-slider {
+    grid-area: pic-slider;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+}
+
+.job-ad {
+    grid-area: job-ad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+}
+
+.welcome {
+    grid-area: welcome;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
+
+.freshly-made-meals {
+    grid-area: freshly-made-meals;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+}
+
+.menus {
+    grid-area: menus;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+}
+
+.meal-deals {
+    grid-area: meal-deals;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+.footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gold;
+}
